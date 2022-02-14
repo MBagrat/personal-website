@@ -1,0 +1,7 @@
+<link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+
+{% if page.page_css %}
+    {% for stylesheet in page.page_css %}
+        <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+    {% endfor %}
+{% endif %}
