@@ -54,7 +54,7 @@ atom_feed:
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia
+search_provider          : lunr # lunr (default), algolia
 algolia:
   application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
   index_name             : minimal_mistakes # YOUR_INDEX_NAME
@@ -228,7 +228,6 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 
 
 # Sass/SCSS

@@ -3,7 +3,7 @@ title: "Reset Launchpad Apps Order"
 header:
     teaser: /assets/images/reset-launchpad-apps-order/reset-launchpad-apps-order.png
 categories: 
- - macos
+ - MacOS
 tags: 
  - sierra
  - big-sur

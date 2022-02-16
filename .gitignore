@@ -2,5 +2,6 @@
 .jekyll-metadata
 Gemfile.lock
 yarn.lock
+/.vscode
 /_site
 /node_modules
