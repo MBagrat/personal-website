@@ -16,31 +16,29 @@ teaser                   : "/assets/images/500x300.png"
 logo                     : "assets/images/120x88.png"
 masthead_title           : "MBagrat"
 breadcrumbs              : true
+
+
 comments:
   provider               : "disqus"
   disqus:
     shortname            : mbagrat
 
+
 reCaptcha:
   siteKey                : 6Lc5JoYeAAAAAH8uTmIJOxk5PSgUgJFTNFmMe5ay
   secret                 : 6Lc5JoYeAAAAAKe02KqBeqzpZt19GdcQwGFgC5NL
 
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia
-algolia:
-  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
-  index_name             : minimal_mistakes # YOUR_INDEX_NAME
-  search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : false # true (default), false
-  files_to_exclude:
-    - _posts/2017-11-28-post-exclude-search.md
+search                   : true
+search_full_content      : true
+search_provider          : lunr
+
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
+google_site_verification : "4VtGdguzZe-wl5BbJiuRB88k3wUyEKIpNz4AX4eJFU8" # Replace this with your ID, or delete
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
