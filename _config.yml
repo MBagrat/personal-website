@@ -38,7 +38,7 @@ search_provider          : lunr
 
 
 # SEO Related
-google_site_verification : "4VtGdguzZe-wl5BbJiuRB88k3wUyEKIpNz4AX4eJFU8" # Replace this with your ID, or delete
+google_site_verification : "Dx14UCrabelisQyDqk6mEOqWxvTZjfUTHqmwrTGUINw"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -57,7 +57,7 @@ og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter d
 social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : *name # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
     - "https://twitter.com/mukaelyanbagrat"
     - "https://www.facebook.com/mbagrat"
 
