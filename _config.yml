@@ -61,9 +61,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-220833920-1" # Replace this with your ID, or delete
+    tracking_id          : "GTM-592SNKV" # Replace this with your ID, or delete
     anonymize_ip         : true
 
 
