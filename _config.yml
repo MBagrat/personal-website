@@ -19,11 +19,10 @@ breadcrumbs              : true
 
 
 comments:
-  provider               : "disqus"
-  disqus:
-    shortname            : mbagrat
-
-
+  provider               : "staticman_v2"
+  staticman:
+    branch               : "master"
+    endpoint             : "https://https://staticman-comment-app.herokuapp.com//v3/entry/github/"
 reCaptcha:
   siteKey                : 6LczxIkeAAAAADXrM5zy81gsZQW5GTSQH6hRayjZ
   secret                 : QM8x7LOX+uUZl9RN1W++S+83fOqhX/+cFsJBuKafxzVVK6SaX39uO2TLMnkJtmU/oNdmxicM2NjCdbOw/zJIgf8wGfj0ecQc/8Zp1it/5qCuu0cbJttq8dUAfhMMFaFGamcMRXcZesoEcRIFpYUppX/VSQq5skYFYQIJwzCACa8=
