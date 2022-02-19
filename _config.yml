@@ -23,9 +23,9 @@ comments:
   staticman:
     branch               : "main"
     endpoint             : "https://staticman-comment-app.herokuapp.com/v3/entry/github/"
-reCaptcha:
-  siteKey                : 6LdpH4oeAAAAAOSgpxH1ORz0Tx9MLFHc3BUwRBVi
-  secret                 : HX9XruOn8dfUd+LwozFfXDXACRXqHvLcf6DE4cttbBosawBnHBI0xe38LxgNXEMgh5NizLxMe+YvbdBSGGUDwN3u/jBByuGqm1K+nnFYywfCHkC5DVhWv+ZIYgwQ2ZUmrt8gCbqrEexYlLVE423iPr2hLBAfmbNjtX/7OwpJ71c=
+# reCaptcha:
+#   siteKey                : 6LdpH4oeAAAAAOSgpxH1ORz0Tx9MLFHc3BUwRBVi
+#   secret                 : HX9XruOn8dfUd+LwozFfXDXACRXqHvLcf6DE4cttbBosawBnHBI0xe38LxgNXEMgh5NizLxMe+YvbdBSGGUDwN3u/jBByuGqm1K+nnFYywfCHkC5DVhWv+ZIYgwQ2ZUmrt8gCbqrEexYlLVE423iPr2hLBAfmbNjtX/7OwpJ71c=
 
 
 atom_feed:
