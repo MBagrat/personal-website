@@ -1,0 +1,5 @@
+comments:
+  # (*) REQUIRED
+  #
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "/_data/comments/{options.slug}" # "_data/comments/{options.slug}" (default)
