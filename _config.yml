@@ -11,7 +11,7 @@ name                     : &name "Bagrat Mukaelyan"
 description              : &description "“Adapt what is useful, reject what is useless, and add what is specifically your own.” - *Bruce Lee*"
 url                      : https://mbagrat.github.io
 baseurl                  : ""
-repository               : "MBagrat/mbagrat.github.io"
+repository               : "mbagrat/mbagrat.github.io"
 teaser                   : "/assets/images/500x300.png"
 logo                     : "assets/images/120x88.png"
 masthead_title           : "MBagrat"
@@ -21,7 +21,7 @@ breadcrumbs              : true
 comments:
   provider               : "staticman_v2"
   staticman:
-    branch               : "main"
+    branch               : "master"
     endpoint             : "https://staticman-comment-app.herokuapp.com/v3/entry/github/"
 reCaptcha:
   siteKey                : 6LdpH4oeAAAAAOSgpxH1ORz0Tx9MLFHc3BUwRBVi
