@@ -21,7 +21,7 @@ breadcrumbs              : true
 comments:
   provider               : "staticman_v2"
   staticman:
-    branch               : "master"
+    branch               : "main"
     endpoint             : "https://staticman-comment-app.herokuapp.com/v3/entry/github/"
 reCaptcha:
   enabled                : true
