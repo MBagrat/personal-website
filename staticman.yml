@@ -13,7 +13,7 @@ comments:
   allowedFields: ["name", "email", "url", "message"]
 
   # When allowedOrigins is defined, only requests sent from one of the listed domains will be accepted.
-  allowedOrigins: ["localhost", "eduardoboucas.com"]
+  allowedOrigins: ["localhost", "mbagrat.com"]
 
   # (*) REQUIRED WHEN USING NOTIFICATIONS
   #
