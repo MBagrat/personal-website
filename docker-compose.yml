@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  # mbagrat.com
+  mbagrat-blog:
+    container_name: mbagrat-blog
+    image: jekyll/jekyll:latest
+    ports:
+      - 4000:4000
+      - 35729:35729
+    command: jekyll serve --watch --force_polling --verbose --drafts --incremental
+    volumes:
+      - .:/srv/jekyll:cached
+      - ./vendor/bundle:/usr/local/bundle:cached
+
+  # portainer.io
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    ports:
+      - 9000:9000
+    #  username: admin , password: 123 , hash command : htpasswd -nb -B admin 123 | cut -d ":" -f 2
+    command: --admin-password "$$2y$$05$$aZhNvtX9GSAIUXPbfKq6dudTMuJcJuLnwWmz2HBnBq23fAlzrAyeu" -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/portainer_data:/data
+
+networks:
+  default:
+    name: blog-network
