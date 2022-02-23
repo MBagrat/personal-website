@@ -69,42 +69,39 @@ analytics:
 
 # Site Author
 author:
-  name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/bagrat-mukaelyan.jpeg"
-  bio              : *description #"Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Yerevan, Armenia"
+  name                   : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar                 : "/assets/images/bagrat-mukaelyan.jpeg"
+  bio                    : *description #"Just another *boring*, *tattooed*, *time traveling*, *designer*."
+  location               : "Yerevan, Armenia"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:bagrat.mukaelyan@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.mbagrat.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/bagratmukaelyan/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mukaelyanbagrat"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/mbagrat"
+      url: "https://www.linkedin.com/in/bagratmukaelyan"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://www.t.me/mbagrat"  
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/MBagrat"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bagrat_mukaelyan/"
+      url: "https://github.com/mbagrat"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/mbagrat"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/MBagrat/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mukaelyanbagrat"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/mbagrat"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://www.t.me/mbagrat" 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MBagrat"
@@ -114,9 +111,6 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/MBagrat/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bagrat_mukaelyan/"
 
 
 # Reading Files
