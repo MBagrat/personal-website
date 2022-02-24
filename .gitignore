@@ -3,7 +3,7 @@
 Gemfile.lock
 yarn.lock
 package.lock.json
-/.idea
+/.idea/*
 /.vscode
 /_site
 /portainer/*
