@@ -8,60 +8,26 @@ page_js:
   - /assets/js/chart.js
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on
-GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and
-customized by you :smile:.
+### Hi there, I'm <a href="https://mbagrat.com" target="_blank">Bagrat Mukaelyan</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-[//]: # (<canvas id="myChart" style="margin: 0 auto;"></canvas>)
+[![Website Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://mbagrat.com)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/bagratmukaelyan)
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/mbagrat)
 
-[//]: # ()
+### Glad to see you here! &nbsp; ![](https://visitor-badge.glitch.me/badge?page_id=mbagrat.mbagrat)
 
-[//]: # (### Language Activities)
+I am a full-stack software engineer and writer. I love programming, writing, speaking and traveling.
 
-[//]: # ()
+As a software engineer, I enjoy using my obsessive attention to detail, my unequivocal love for making things that change the world. That's why I like to make things that make a difference.
 
-[//]: # (<div>)
+<img align="right" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="408" height="318" />
+  
 
-[//]: # (    <figure>)
+**Talking about Personal Stuffs:**
 
-[//]: # (        <embed src="https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/909edad6-882c-4d59-9d54-fdb3aab8c7e8.svg"/>)
-
-[//]: # (    </figure>)
-
-[//]: # (</div>)
-
-[//]: # ()
-
-[//]: # (### Editor Activities)
-
-[//]: # ()
-
-[//]: # (<figure>)
-
-[//]: # (    <embed src="https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/27a87e96-f3f4-4d72-835e-96d618ab63cc.svg"/>)
-
-[//]: # (</figure>)
-
-[//]: # ()
-
-[//]: # (### Operation Systems)
-
-[//]: # ()
-
-[//]: # (<figure>)
-
-[//]: # (    <embed src="https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/da707e32-ff10-4fae-8b98-caa38767dba0.svg"/>)
-
-[//]: # (</figure>)
-
-[//]: # ()
-
-[//]: # (### Categories)
-
-[//]: # ()
-
-[//]: # (<figure>)
-
-[//]: # (    <embed src="https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/2bafbcbb-af7d-42fc-87f7-06ae10a8d61e.svg" />)
-
-[//]: # (</figure>)
+- 👨🏻‍💻 I’m currently working on something cool;
+- 🚀 I’m currently learning Data Structures and Algorithms on [leetcode](https://leetcode.com/mbagrat);
+- 💬 Ask me about anything, I am happy to help;
+- 📝 I regulary write articles on [my blog](https://mbagrat.com);
+- 📫 How to reach me: bagrat.mukaelyan@gmail.com;
+<!-- - 📝 [Resume](https://gkassym.netlify.app/Resume.pdf). -->
