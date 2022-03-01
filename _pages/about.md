@@ -1,7 +1,11 @@
 ---
-permalink: /about/ title: "About"
-last_modified_at: 2021-05-11T10:23:16-04:00 author_profile: true classes: wide page_js:
-- /assets/js/chart.js
+permalink: /about/ 
+title: "About"
+last_modified_at: 2021-05-11T10:23:16-04:00 
+author_profile: true 
+classes: wide 
+page_js:
+  - /assets/js/chart.js
 ---
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on
