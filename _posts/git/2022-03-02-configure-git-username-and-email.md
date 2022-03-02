@@ -2,6 +2,7 @@
 title: "How to Configure Git Username and Email Address"
 header:
   teaser: /assets/images/configure-git-username-and-email/configure-git-username-and-email.jpg
+  og-imsge: /assets/images/configure-git-username-and-email/configure-git-username-and-email.jpg
 categories:
   - Git
 tags: 

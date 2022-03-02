@@ -2,6 +2,7 @@
 title: "Creating newer ECC keys for GnuPG"
 header:
   teaser: /assets/images/creating-newer-ecc-keys-for-gnupg/creating-newer-ecc-keys-for-gnupg.png
+  og-image: /assets/images/creating-newer-ecc-keys-for-gnupg/creating-newer-ecc-keys-for-gnupg.png
 categories:
   - GnuPG
 tags: 

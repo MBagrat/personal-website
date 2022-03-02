@@ -2,6 +2,7 @@
 title: "Haskell, Stack and Intellij IDEA IDE setup tutorial"
 header:
   teaser: /assets/images/haskell-stack-and-intellij-idea/haskell-stack-and-intellij-idea.png
+  og-image: /assets/images/haskell-stack-and-intellij-idea/haskell-stack-and-intellij-idea.png
 categories:
   - Languages
 tags: 

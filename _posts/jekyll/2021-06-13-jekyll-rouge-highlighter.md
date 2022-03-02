@@ -2,6 +2,7 @@
 title: "Jekyll Rouge Highlighter"
 header:
     teaser: /assets/images/jekyll-rouge-highlighter/jekyll-rouge-highlighter.png
+    og-image: /assets/images/jekyll-rouge-highlighter/jekyll-rouge-highlighter.png
 categories:
   - Jekyll
 tags:
