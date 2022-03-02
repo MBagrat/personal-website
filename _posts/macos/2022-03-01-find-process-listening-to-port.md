@@ -2,7 +2,7 @@
 title: "How to Find the Process Listening to Port on Mac OS X"
 header:
     teaser: /assets/images/find-process-listening-to-port/find-process-listening-to-port.png
-    og-image: /assets/images/find-process-listening-to-port/find-process-listening-to-port.png
+    og_image: /assets/images/find-process-listening-to-port/find-process-listening-to-port.png
 categories: 
  - MacOS
 tags: 

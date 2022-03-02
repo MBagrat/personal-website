@@ -2,7 +2,7 @@
 title: "Tmux in practice: a series of tutorials on how to use tmux, the powerful virtual server multiplexer"
 header:
     teaser: /assets/images/main-tmux-in-practice/main-tmux-in-practice.jpg
-    og-image: /assets/images/main-tmux-in-practice/main-tmux-in-practice.jpg
+    og_image: /assets/images/main-tmux-in-practice/main-tmux-in-practice.jpg
 categories:
   - Tools
 tags: 

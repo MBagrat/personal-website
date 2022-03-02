@@ -2,7 +2,7 @@
 title: "The Pattern: Ports and Adapters (Object Structural)"
 header:
    teaser: /assets/images/the-pattern-ports-and-adapters-object-structural/5feet.jpg
-   og-image: /assets/images/the-pattern-ports-and-adapters-object-structural/5feet.jpg
+   og_image: /assets/images/the-pattern-ports-and-adapters-object-structural/5feet.jpg
 categories: 
   - Architecture
 tags:

@@ -2,7 +2,7 @@
 title: "Reset Launchpad Apps Order"
 header:
     teaser: /assets/images/reset-launchpad-apps-order/reset-launchpad-apps-order.png
-    og-image: /assets/images/reset-launchpad-apps-order/reset-launchpad-apps-order.png
+    og_image: /assets/images/reset-launchpad-apps-order/reset-launchpad-apps-order.png
 categories: 
  - MacOS
 tags: 

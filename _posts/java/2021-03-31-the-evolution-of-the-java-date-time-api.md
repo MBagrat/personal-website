@@ -2,7 +2,7 @@
 title: "The Evolution of the Java Date Time API"
 header:
     teaser: /assets/images/the-evolution-of-the-java-date-time-api/0_viIQXek8y4BjhOPN.jpeg
-    og-image: /assets/images/the-evolution-of-the-java-date-time-api/0_viIQXek8y4BjhOPN.jpeg
+    og_image: /assets/images/the-evolution-of-the-java-date-time-api/0_viIQXek8y4BjhOPN.jpeg
 categories: 
   - Languages
 tags: 

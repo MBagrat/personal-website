@@ -2,7 +2,7 @@
 title:  "The Pattern: Ports and Adapters (Hexagonal Architecture)"
 header:
   teaser: /assets/images/the-pattern-ports-and-adapters-hexagonal-architecture/figure1.png
-  og-image: /assets/images/the-pattern-ports-and-adapters-hexagonal-architecture/figure1.png
+  og_image: /assets/images/the-pattern-ports-and-adapters-hexagonal-architecture/figure1.png
 categories:
   - Architecture
 tags:
