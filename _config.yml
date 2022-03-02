@@ -9,7 +9,7 @@ title_separator          : "-"
 subtitle                 : "Yet another developer's blog."
 name                     : &name "Bagrat Mukaelyan"
 description              : &description "“Adapt what is useful, reject what is useless, and add what is specifically your own.” - *Bruce Lee*"
-url                      : https://mbagrat.github.io
+url                      : https://mbagrat.com
 baseurl                  : ""
 repository               : "mbagrat/mbagrat.github.io"
 teaser                   : "/assets/images/500x300.png"
@@ -46,7 +46,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mukaelyanbagrat"
+  username               : &twitter "bagratmukaelyan"
 facebook:
   username               : &facebook "mbagrat"
   app_id                 :
@@ -56,7 +56,7 @@ social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : *name # If the user or organization name differs from the site's name
   links:
-    - "https://twitter.com/mukaelyanbagrat"
+    - "https://twitter.com/bagratmukaelyan"
     - "https://www.facebook.com/mbagrat"
 
 # Analytics
@@ -80,9 +80,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.mbagrat.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://www.twitter.com/bagratmukaelyan"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bagratmukaelyan"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/mbagrat"
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://www.t.me/mbagrat"  
