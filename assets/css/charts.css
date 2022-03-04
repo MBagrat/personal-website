@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-bar {
+  width: 100%;
+}
+
+.item-donate {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 0 20px 0;
+}
+
+h4 {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
