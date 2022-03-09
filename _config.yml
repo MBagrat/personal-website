@@ -11,9 +11,9 @@ name                     : &name "Bagrat Mukaelyan"
 description              : &description "“Adapt what is useful, reject what is useless, and add what is specifically your own.” - *Bruce Lee*"
 url                      : https://mbagrat.com
 baseurl                  : ""
-repository               : "mbagrat/mbagrat.github.io"
+repository               : "mbagrat/personal-website"
 teaser                   : "/assets/images/500x300.png"
-logo                     : "assets/images/120x88.png"
+logo                     : "/assets/images/120x88.png"
 masthead_title           : "MBagrat"
 breadcrumbs              : true
 
@@ -50,7 +50,7 @@ twitter:
 facebook:
   username               : &facebook "mbagrat"
   app_id                 :
-  publisher              :
+  publisher              : 
 og_image                 : "/assets/images/site-logo.png" 
 social:
   type                   : Person # Person or Organization (defaults to Person)
