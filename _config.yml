@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "MBagrat"
+title                    : "Bagrat Mukaelyan | Software Engineer | Writer "
 title_separator          : "-"
 subtitle                 : "Yet another developer's blog."
 name                     : &name "Bagrat Mukaelyan"
@@ -50,20 +50,23 @@ twitter:
 facebook:
   username               : &facebook "mbagrat"
   app_id                 :
-  publisher              : 
-og_image                 : "/assets/images/site-logo.png" 
+  publisher              :
+og_image                 : "/assets/images/site-logo.png"
 social:
   type                   : Person # Person or Organization (defaults to Person)
   name                   : *name # If the user or organization name differs from the site's name
   links:
-    - "https://twitter.com/bagratmukaelyan"
+    - "https://www.twitter.com/bagratmukaelyan"
     - "https://www.facebook.com/mbagrat"
+    - "https://www.linkedin.com/in/bagratmukaelyan"
+    - "https://www.t.me/mbagrat"
+    - "https://www.instagram.com/bagratmukaelyan/"
 
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "GTM-592SNKV" # Replace this with your ID, or delete 
+    tracking_id          : "GTM-592SNKV" # Replace this with your ID, or delete
     anonymize_ip         : true
 
 
@@ -91,7 +94,7 @@ author:
       url: "https://www.facebook.com/mbagrat"
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
-      url: "https://www.t.me/mbagrat"  
+      url: "https://www.t.me/mbagrat"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mbagrat"
@@ -107,7 +110,7 @@ footer:
   links:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
-      url: "https://www.t.me/mbagrat" 
+      url: "https://www.t.me/mbagrat"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MBagrat"
