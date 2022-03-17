@@ -4,9 +4,9 @@ header:
     teaser: /assets/images/the-evolution-of-the-java-date-time-api/0_viIQXek8y4BjhOPN.jpeg
     og_image: /assets/images/the-evolution-of-the-java-date-time-api/0_viIQXek8y4BjhOPN.jpeg
 categories: 
-  - Languages
+  - Java
 tags: 
-  - java
+  - api
   - date-and-time
 toc: true
 toc_sticky: true
