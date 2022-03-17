@@ -8,7 +8,7 @@ categories:
 tags: 
   - git
   - vcs
-  - version control system
+  - version-control-system
 toc: true
 toc_sticky: true
 ---

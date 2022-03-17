@@ -4,7 +4,7 @@ header:
   teaser: /assets/images/haskell-stack-and-intellij-idea/haskell-stack-and-intellij-idea.png
   og_image: /assets/images/haskell-stack-and-intellij-idea/haskell-stack-and-intellij-idea.png
 categories:
-  - Languages
+  - Haskell
 tags: 
   - haskell
   - intellij-idea

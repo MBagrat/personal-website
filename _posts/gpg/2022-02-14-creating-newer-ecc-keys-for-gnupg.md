@@ -6,7 +6,9 @@ header:
 categories:
   - GnuPG
 tags: 
+  - git
   - gpg
+  - gpg-key
 toc: true
 toc_sticky: true
 ---

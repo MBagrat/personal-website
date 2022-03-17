@@ -6,6 +6,7 @@ header:
 categories:
   - Java
 tags:
+  - java
   - tools
   - shebang
   - scripting

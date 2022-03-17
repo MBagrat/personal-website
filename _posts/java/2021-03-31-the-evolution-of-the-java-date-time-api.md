@@ -6,8 +6,10 @@ header:
 categories: 
   - Java
 tags: 
-  - api
-  - date-and-time
+  - java
+  - java-api
+  - java-date-and-time
+  - java-date-and-time-api
 toc: true
 toc_sticky: true
 ---
