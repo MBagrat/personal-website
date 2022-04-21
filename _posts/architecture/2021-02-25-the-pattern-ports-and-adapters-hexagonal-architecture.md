@@ -512,6 +512,7 @@ any combination__ of ports and adapters configuration.
 
 ### Links
 
+* [Orginal Artical: Ports and Adapters Pattern - By Juan Manuel Garrido de Paz](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html)
 * [Article by Alistair Cockburn defining Ports and Adapters Pattern](https://web.archive.org/web/20180822100852/http://alistair.cockburn.us/Hexagonal+architecture){:target="_blank"}
 * [Alistair in the Hexagone - Youtube](https://www.youtube.com/playlist?list=PLGl1Jc8ErU1w27y8-7Gdcloy1tHO7NriL){:target="_blank"}
 * [Interview with Alistair Cockburn about Hexagonal Architecture](https://web.archive.org/web/20170925184018/http://alistair.cockburn.us/Hexagonal+Architecture+FAQ){:target="_blank"}
