@@ -192,7 +192,7 @@ It’s also possible to use bold and italic:
 
 ## Xcode Playground - Introduction
 
-[![Blinking LEDs](http://img.youtube.com/vi/oMLHuX5nHvM/0.jpg)](https://www.youtube.com/watch?v=oMLHuX5nHvM "Xcode Playground - Introduction")
+[![Blinking LEDs](http://img.youtube.com/vi/oMLHuX5nHvM/0.jpg)](https://www.youtube.com/watch?v=oMLHuX5nHvM "Xcode Playground - Introduction"){:target="_blank"}
 
 ## Resources
 
