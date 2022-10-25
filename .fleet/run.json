@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "type": "docker-compose-up",
+      "name": "personal-website",
+      "files": ["./docker-compose.yml"],
+    },
+
+    {
+      "type": "command",
+      "name": "local run personal-website",
+      "program": "bundle",
+      "args": ["exec", "jekyll", "serve", "--trace", "--incremental", "--livereload"],
+    }
+
+  ]
+}

@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   # mbagrat.com
   mbagrat-blog:
@@ -7,19 +6,20 @@ services:
     ports:
       - 4000:4000
       - 35729:35729
-    command: jekyll serve --watch --force_polling --verbose --drafts --incremental
+    command: jekyll serve --force_polling --verbose --drafts --incremental --livereload
     volumes:
       - .:/srv/jekyll:cached
       - ./vendor/bundle:/usr/local/bundle:cached
-
+    environment:
+      - JEKYLL_ENV=development
   # portainer.io
   portainer:
     container_name: portainer
     image: portainer/portainer-ce:latest
     ports:
       - 9000:9000
-    #  username: admin , password: 123 , hash command : htpasswd -nb -B admin 123 | cut -d ":" -f 2
-    command: --admin-password "$$2y$$05$$aZhNvtX9GSAIUXPbfKq6dudTMuJcJuLnwWmz2HBnBq23fAlzrAyeu" -H unix:///var/run/docker.sock
+    # username: admin , password: DHB!kjf*hth7wap0egw , hash command : htpasswd -nb -B admin DHB!kjf*hth7wap0egw | cut -d ":" -f 2
+    command: --admin-password "$$2y$$05$$CtplFbNSqG.VMtnpjeTY8OCzv8sBgxRGge.qk9Nz.leiKUhQAm1Ce" -H unix:///var/run/docker.sock
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./portainer/portainer_data:/data
