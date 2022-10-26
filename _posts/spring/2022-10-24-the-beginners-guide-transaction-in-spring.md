@@ -1,8 +1,8 @@
 ---
-title: "ACID Database Model"
+title: "The beginner's guide - Transaction in Spring"
 header:
-  teaser: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management.png
-  og_image: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management.png
+  teaser: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management-title-500x238.png
+  og_image: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management-title-500x238.png
 categories:
 - Spring
 tags:
@@ -33,15 +33,18 @@ alt="this is top image" %}
 - Actually, Spring **@Transactional** annotation converts the method into a simple JDBC transaction model
 
 ```java
-@Transactional
-public List<Employee> getEmployees() {
-  Connection connection = dataSource.getConnection();
-  try (connection) {
-    connection.setAutoCommit(false);
-    return employeeRepository.findAll();
-    connection.commit();
-  } catch (SQLException e) {
-    connection.rollback();
+public class EmployeeServiceProxy {
+  
+  @Transactional
+  public List<Employee> getEmployees() {
+    Connection connection = dataSource.getConnection();
+    try (connection) {
+      connection.setAutoCommit(false);
+      return employeeRepository.findAll();
+      connection.commit();
+    } catch (SQLException e) {
+      connection.rollback();
+    }
   }
 }
 ```
