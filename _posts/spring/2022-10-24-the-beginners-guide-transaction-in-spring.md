@@ -15,7 +15,7 @@ toc_sticky: true
 ---
 Today we are going to discuss what is a Transaction Management within Spring.
 
-{% include figure image_path="/assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management.png"
+{% include figure image_path="/assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management-title.png"
 alt="this is top image" %}
 
 ## What is JPA?

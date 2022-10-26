@@ -13,6 +13,8 @@ toc: true
 toc_sticky: true
 ---
 
+## Introduction
+
 Transactions are omnipresent in today’s enterprise systems, providing data integrity even in highly concurrent environments. So let’s get started by first defining the term and the context where you might usually employ it.
 
 {% include figure image_path="/assets/images/acid-atomicity-consistency-isolation-durability/acid-transactions-title.png"
