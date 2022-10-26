@@ -22,7 +22,7 @@ alt="this is top image" %}
 - This stands for Java **Persistence Architecture**
 - The JPA is a Java specification for accessing, persisting and managing data between Java objects, classes and relational databases.
 - The JPA provides guidelines to develop an interface with certain standard levels.
-- But JPA doesn’t provide any implementation for that interface.
+- But JPA does not provide any implementation for that interface.
 - You can use the implementations of JPA like **Hibernate**. But remember, **JPA is a specification and Hibernate is one of the implementations of JPA**.
 
 ## Transaction management with Spring
@@ -33,7 +33,7 @@ alt="this is top image" %}
 - Actually, Spring **@Transactional** annotation converts the method into a simple JDBC transaction model
 
 ```java
-public class EmployeeServiceProxy {
+public class EmployeeRepositoryProxy {
   
   @Transactional
   public List<Employee> getEmployees() {
@@ -131,7 +131,7 @@ public class AccountService {
 - This can be used with classes and methods.
 - It defines a **single database transaction** without closing the connection.
 - This supports Propagation type, Isolation level, the timeout for operation, readOnly flag and rollback rules.
-- There is no use in using this for **GET** operations. Because we are just getting data from the DB. You can use it but it will lead to overhead because of the **transaction interceptor and AOP proxy**.
+- There is no use in using this for **GET** operations. Because we are just getting data from the DB. You can use it, but it will lead to overhead because of the **transaction interceptor and AOP proxy**.
 
 ## Propagation levels in Spring Transaction
 - You can set propagation levels like
@@ -167,7 +167,7 @@ public class AccountService {
 - This means, no physical transaction will exist. If found, it will cause an exception.
 
 **NESTED**
-- This is the same as REQUIRED but it uses save-points.
+- This is the same as REQUIRED, but it uses save-points.
 - Simply it means inner logical transactions may roll back independently.
 
 ## Read operations in a transaction
@@ -210,7 +210,7 @@ Isolation.**SERIALIZABLE**
 - all dirty reads, nonrepeatable reads and phantom reads are prevented
 
 ## What is rollbackFor and noRollbackFor in Spring Transaction?
-- By default, @Transactioanl will take a look at RunTimeExceptions. If you need, you can roll back for any exceptions using rollbackFor.
+- By default, @Transactional will take a look at RunTimeExceptions. If you need, you can roll back for any exceptions using rollbackFor.
 > @Transactional(readOnly = false, rollbackFor = Exception.class)
 
 - rollbackFor can be used to indicate which exceptions cause the transaction rollback
