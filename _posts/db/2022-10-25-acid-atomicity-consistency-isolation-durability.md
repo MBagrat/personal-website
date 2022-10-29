@@ -4,11 +4,11 @@ header:
   teaser: /assets/images/acid-atomicity-consistency-isolation-durability/acid-transactions-title.png
   og_image: /assets/images/acid-atomicity-consistency-isolation-durability/acid-transactions-title.png
 categories:
-- Database
+  - Database
 tags:
-- database
-- transaction
-- transaction-management
+  - database
+  - transaction
+  - transaction-management
 toc: true
 toc_sticky: true
 ---
@@ -147,6 +147,9 @@ Even if the SQL standard mandates the use of the SERIALIZABLE isolation level, m
 | Microsoft SQL Server | READ_COMMITTED          |
 | PostgreSQL           | READ_COMMITTED          |
 | DB2                  | CURSOR STABILITY        |
+
+## ACID Transactions (Explained by Example)
+{% include video id="pomxJOFVcQs" provider="youtube" %}
 
 ## Conclusion
 Usually, READ COMMITED is the right choice, since [not even SERIALIZABLE can protect you from a lost update where the reads/writes happen in different transactions (and web requests)](https://vladmihalcea.com/preventing-lost-updates-in-long-conversations/). You should take into consideration your enterprise system requirements and set up tests for deciding which isolation level best suits your needs.

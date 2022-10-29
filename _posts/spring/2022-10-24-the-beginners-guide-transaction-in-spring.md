@@ -4,12 +4,12 @@ header:
   teaser: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management-title-500x238.png
   og_image: /assets/images/the-beginners-guide-transaction-in-spring/spring-transaction-management-title-500x238.png
 categories:
-- Spring
+  - Spring
 tags:
-- spring
-- beginners-guide
-- transaction
-- transaction-management
+  - spring
+  - beginners-guide
+  - transaction
+  - transaction-management
 toc: true
 toc_sticky: true
 ---

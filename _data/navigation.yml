@@ -6,5 +6,7 @@ main:
     url: /posts/
   - title: "Categories"
     url: /categories/
-  - title: About
+  - title: "About"
     url: /about/
+  - title: "Terms"
+    url: /terms/
