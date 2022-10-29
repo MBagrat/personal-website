@@ -2,10 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
   - title: "Blog"
     url: /posts-grid/
+  - title: "Categories"
+    url: /categories/
   - title: "Archive"
     url: /posts/
   - title: "Terms"

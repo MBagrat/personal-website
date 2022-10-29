@@ -1,10 +1,10 @@
 services:
   # mbagrat.com
-  mbagrat-blog:
-    container_name: mbagrat-blog
-    image: jekyll/jekyll:latest
+  personal-website:
+    container_name: personal-website
+    image: jekyll/jekyll:4.2.0
     ports:
-      - 4000:4000
+      - 4040:4000
       - 35729:35729
     command: jekyll serve --force_polling --verbose --drafts --incremental --livereload
     volumes:
@@ -26,4 +26,4 @@ services:
 
 networks:
   default:
-    name: blog-network
+    name: personal-website-network

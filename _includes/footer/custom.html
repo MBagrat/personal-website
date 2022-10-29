@@ -8,25 +8,21 @@
   data-position="Right"
   data-x_margin="18"
   data-y_margin="18"
-  src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-></script>
+  src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"></script>
 <script
   crossorigin="anonymous"
   integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
   referrerpolicy="no-referrer"
-  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-></script>
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
 <script
   crossorigin="anonymous"
   integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
   referrerpolicy="no-referrer"
-  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 
 <!--@formatter:off-->
 {% if page.page_js %} {% for script in page.page_js %}
-<script src="{{ script | relative_url }}"></script>
+  <script src="{{ script | relative_url }}"></script>
 {% endfor %} {% endif %}
 <!--@formatter:on-->

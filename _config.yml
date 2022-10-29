@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bagrat Mukaelyan | Software Engineer | Writer "
+title                    : "Bagrat Mukaelyan | Software Engineer | Writer"
 title_separator          : "-"
 subtitle                 : "Yet another developer's blog."
 name                     : &name "Bagrat Mukaelyan"
@@ -31,6 +31,7 @@ reCaptcha:
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  hide                   : true
 
 search                   : true
 search_full_content      : true
@@ -53,8 +54,8 @@ facebook:
   publisher              :
 og_image                 : "/assets/images/site-logo.png"
 social:
-  type                   : Person # Person or Organization (defaults to Person)
-  name                   : *name # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : *name
   links:
     - "https://www.twitter.com/bagratmukaelyan"
     - "https://www.facebook.com/mbagrat"
@@ -64,17 +65,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          : "GTM-592SNKV" # Replace this with your ID, or delete
+    tracking_id          : "GTM-592SNKV"
     anonymize_ip         : true
 
 
 # Site Author
 author:
-  name                   : *name # *name is a YAML reference pointing to the &anchor earlier
+  name                   : *name
   avatar                 : "/assets/images/bagrat-mukaelyan.jpeg"
-  bio                    : *description #"Just another *boring*, *tattooed*, *time traveling*, *designer*."
+  bio                    : *description
   location               : "Yerevan, Armenia"
   links:
     - label: "Email"
@@ -129,6 +130,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .fleet
   - vendor
   - .asset-cache
   - .bundle
@@ -174,7 +176,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
@@ -208,14 +209,12 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Yerevan
 
 
 # Plugins (previously gems:)

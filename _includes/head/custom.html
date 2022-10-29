@@ -2,8 +2,8 @@
 
 <!--@formatter:off-->
 {% if page.page_css %}
-    {% for stylesheet in page.page_css %}
-        <link href="{{ stylesheet | relative_url }}" rel="stylesheet">
-    {% endfor %}
+  {% for stylesheet in page.page_css %}
+    <link href="{{ stylesheet | relative_url }}" rel="stylesheet" />
+  {% endfor %}
 {% endif %}
 <!--@formatter:on-->
