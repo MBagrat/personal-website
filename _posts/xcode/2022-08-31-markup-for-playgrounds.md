@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 ---
 
-In this post you will learn how to use markup for Playgrounds.
+In this post you will learn how to use markup for an Apples Xcode Playgrounds.
 
 *Hint: This post uses **Xcode 13.4** and **Swift 5**.*
 

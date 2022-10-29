@@ -13,9 +13,10 @@ tags:
 toc: true
 toc_sticky: true
 ---
-{% include figure image_path="/assets/images/find-process-listening-to-port-on-windows/check-ports-in-use-windows-10-04.png" alt="This is top image" %}
 
 Can’t use a specific port? Here’s how to check which port is in use in Windows with simple commands and apps like currports and tcpview.
+
+{% include figure image_path="/assets/images/find-process-listening-to-port-on-windows/check-ports-in-use-windows-10-04.png" alt="This is top image" %}
 
 Windows has many applications connected or trying to connect to the internet at any point in time. With all those applications, it is only natural that they use many network ports.
 
