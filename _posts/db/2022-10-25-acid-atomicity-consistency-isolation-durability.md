@@ -15,7 +15,7 @@ toc_sticky: true
 
 Transactions are omnipresent in today’s enterprise systems, providing data integrity even in highly concurrent environments. So let’s get started by first defining the term and the context where you might usually employ it.
 
-> _Copyright:_ This article a copy of the article "A beginner’s guide to ACID and database transactions", which was written and published by [Vlad Mihalcea](https://vladmihalcea.com/about/), on February 16, 2022 at the following URL of his [website](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/):
+> _Copyright:_ This article a copy of the article "A beginner’s guide to ACID and database transactions", which was written and published by [Vlad Mihalcea](https://vladmihalcea.com/about/), on February 16, 2022 at the following URL of his website: [https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)
 
 {% include figure image_path="/assets/images/acid-atomicity-consistency-isolation-durability/acid-transactions-title.png"
 alt="this is top image" %}

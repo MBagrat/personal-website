@@ -15,7 +15,7 @@ This article is for sharing my knowledge about **Ports & Adapters pattern (also 
 hoping it can be helpful to someone interested in this subject. 
 
 > _Copyright:_ This article a copy of the article "Ports and Adapters Pattern
-(Hexagonal Architecture)", which was written and published by [Juan Manuel Garrido de Paz](https://jmgarridopaz.github.io/), on August 29, 2018 at the following URL of his [website](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html):
+(Hexagonal Architecture)", which was written and published by [Juan Manuel Garrido de Paz](https://jmgarridopaz.github.io/), on August 29, 2018 at the following URL of his website: [https://jmgarridopaz.github.io/content/hexagonalarchitecture.html](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html)
 
 {% include figure image_path="/assets/images/the-pattern-ports-and-adapters-hexagonal-architecture/figure1.png" alt="Actors" %}
 
