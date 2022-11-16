@@ -15,7 +15,7 @@ toc_sticky: true
 Create your application to work without either a UI or a database so you can run automated regression-tests against the application, 
 work when the database becomes unavailable, and link applications together without any user involvement.
 
-> _Copyright:_ Here I post a copy of the article "The Pattern: Ports and Adapters (Object Structural)", which was written and published by [Alistair Cockburn](https://en.wikipedia.org/wiki/Alistair_Cockburn), on January 4, 2005 at the following URL of his [website](http://alistair.cockburn.us/Hexagonal+architecture):
+> _Copyright:_ This article a copy of the article "The Pattern: Ports and Adapters (Object Structural)", which was written and published by [Alistair Cockburn](https://en.wikipedia.org/wiki/Alistair_Cockburn), on January 4, 2005 at the following URL of his [website](http://alistair.cockburn.us/Hexagonal+architecture):
 
 {% include figure image_path="/assets/images/the-pattern-ports-and-adapters-object-structural/hexagonal-architecture-basic.gif" alt="Hexagonal architecture basic" %}
 
