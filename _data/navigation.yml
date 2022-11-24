@@ -6,6 +6,10 @@ main:
     url: /posts-grid/
   - title: "Categories"
     url: /categories/
+#  - title: "Links"
+#    url: /links/
+#  - title: "Reading list"
+#    url: /reading-list/
   - title: "Archive"
     url: /posts/
   - title: "Terms"

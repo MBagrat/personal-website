@@ -1,7 +1,6 @@
 ---
-permalink: /about/ 
 title: "About"
-last_modified_at: 2021-05-11T10:23:16-04:00 
+permalink: /about/ 
 author_profile: true 
 classes: wide 
 page_js:
@@ -22,7 +21,7 @@ I am a full-stack software engineer and writer. I love programming, writing, spe
 
 As a software engineer, I enjoy using my obsessive attention to detail, my unequivocal love for making things that change the world. That's why I like to make things that make a difference.
 
-<img align="right" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="408" height="318" />
+<img style="float:right" alt="GIF" src="https://github.com/Gapur/Gapur/blob/master/coding.gif?raw=true" width="408" height="318" />
 
 **Talking about Personal Stuffs:**
 
