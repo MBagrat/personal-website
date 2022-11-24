@@ -10,6 +10,7 @@ tags:
  - big-sur
  - monterey
 classes: wide
+last_modified_at: 2022-03-02T15:26:16+04:00
 ---
 
 The Launchpad in macOS helps you access applications quickly.

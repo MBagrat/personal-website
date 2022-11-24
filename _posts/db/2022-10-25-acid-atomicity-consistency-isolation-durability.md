@@ -11,6 +11,7 @@ tags:
   - transaction-management
 toc: true
 toc_sticky: true
+last_modified_at: 2022-11-21T10:23:16+04:00
 ---
 
 > _Copyright:_ This article is a copy of the article "A beginner’s guide to ACID and database transactions", which was written and published by [Vlad Mihalcea](https://vladmihalcea.com/about/), on February 16, 2022, at the following URL of his website: [https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)

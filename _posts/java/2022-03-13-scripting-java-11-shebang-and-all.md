@@ -14,6 +14,7 @@ tags:
   - java-scripting-shebang
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-17T11:44:16+04:00
 ---
 
 From Java 11 on, you can execute a single source file without compiling it first. Beyond experimentation, you can write 

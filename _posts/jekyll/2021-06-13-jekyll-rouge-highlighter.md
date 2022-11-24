@@ -11,6 +11,7 @@ tags:
   - highlighter
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-02T11:44:16+04:00
 ---
 
 This article describes how to configure Rouge to handle formatting of Highlights.

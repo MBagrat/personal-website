@@ -12,6 +12,7 @@ tags:
   - java-date-and-time-api
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-17T11:44:16+04:00
 ---
 
 Hello guys! Today I want to write about the **time** and how it was and it is currently treated with Java.

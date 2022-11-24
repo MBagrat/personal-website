@@ -12,6 +12,7 @@ tags:
   - transaction-management
 toc: true
 toc_sticky: true
+last_modified_at: 2022-10-26T19:33:16+04:00
 ---
 Today we are going to discuss what is a Transaction Management within Spring.
 

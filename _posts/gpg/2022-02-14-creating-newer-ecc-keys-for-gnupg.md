@@ -11,6 +11,7 @@ tags:
   - gpg-key
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-17T11:02:16+04:00
 ---
 
 Here is an explanation of how to create your new ECC keys for GnuPG.

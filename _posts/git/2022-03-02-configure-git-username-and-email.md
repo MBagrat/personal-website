@@ -11,6 +11,7 @@ tags:
   - version-control-system
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-17T11:02:16+04:00
 ---
 
 {% include figure image_path="/assets/images/configure-git-username-and-email/configure-git-username-and-email.jpg" alt="Creating newer ECC keys for GnuPG header image" caption="The first thing you should do after installing Git on your system is to configure your git username and email address."%}

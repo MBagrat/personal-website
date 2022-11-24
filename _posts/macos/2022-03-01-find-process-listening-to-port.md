@@ -12,6 +12,7 @@ tags:
  - process-id
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-02T15:26:16+04:00
 ---
 
 {% include figure image_path="/assets/images/find-process-listening-to-port/find-process-listening-to-port.png" alt="This is top image" caption="To find the process that is listening to a port on Mac OS X, we’ll use the lsof command to find the process ID (PID), and the ps command to show the name." %}

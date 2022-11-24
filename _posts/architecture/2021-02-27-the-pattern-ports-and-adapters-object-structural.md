@@ -11,6 +11,7 @@ tags:
   - hexagonal-architecture
 toc: true
 toc_sticky: true
+last_modified_at: 2022-11-21T10:23:16+04:00
 ---
 
 > _Copyright:_ This article is a copy of the article "The Pattern: Ports and Adapters (Object Structural)", which was written and published by [Alistair Cockburn](https://en.wikipedia.org/wiki/Alistair_Cockburn), on January 4, 2005, at the following URL of his website: [https://alistair.cockburn.us/hexagonal-architecture/](https://alistair.cockburn.us/hexagonal-architecture/)

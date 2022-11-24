@@ -14,6 +14,7 @@ tags:
   - playground
 toc: true
 toc_sticky: true
+last_modified_at: 2022-10-30T13:23:16+04:00
 ---
 
 In this post you will learn how to use markup for an Apples Xcode Playgrounds.

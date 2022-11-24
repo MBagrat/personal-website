@@ -11,6 +11,7 @@ tags:
   - functional-programming 
 toc: true
 toc_sticky: true
+last_modified_at: 2022-03-17T11:02:16+04:00
 ---
 
 Upon completion, you will have a sane, productive Haskell environment adhering to best practices.

@@ -12,6 +12,7 @@ tags:
   - programming
   - productivity
 classes: wide
+last_modified_at: 2022-11-16T14:46:16+04:00
 ---
 
 {% include figure image_path="/assets/images/tmux-in-practice/tmux-in-practice.jpg" alt="this is top image"  caption="Explore tmux and its tough questions and tricks, including features, nested sessions, scrollback buffer, clipboard integration, and iTerm2 integration." %}
