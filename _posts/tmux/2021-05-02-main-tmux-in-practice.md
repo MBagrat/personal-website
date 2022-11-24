@@ -4,10 +4,11 @@ header:
   teaser: /assets/images/tmux-in-practice/tmux-in-practice.jpg
   og_image: /assets/images/tmux-in-practice/tmux-in-practice.jpg
 categories:
-  - Tools
+  - Terminal
 tags: 
   - tmux
   - devops
+  - terminal
   - technology
   - programming
   - productivity
