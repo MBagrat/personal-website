@@ -214,15 +214,16 @@ To be set or show the global Java version run
 And that's it. To verify that everything setup correct, run `jenv doctor`.
 ```zsh
  ~ ❯ jenv doctor
+ 
  [OK]	JAVA_HOME variable probably set by jenv PROMPT
  [OK]	Java binaries in path are jenv shims
  [OK]	Jenv is correctly loaded
 ```
 
 ## References
-- [What should/shouldn’t go in .zshenv, .zshrc, .zlogin, .zprofile, .zlogout?](https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout)
-- [Wikipedia macOS](https://en.wikipedia.org/wiki/MacOS)
-- [Homebrew](https://brew.sh/)
 - [jenv](https://www.jenv.be)
+- [Homebrew](https://brew.sh/)
+- [Wikipedia macOS](https://en.wikipedia.org/wiki/MacOS)
 - [Zsh Startup Files](https://zsh.sourceforge.io/Intro/intro_3.html)
+- [What should/shouldn’t go in .zshenv, .zshrc, .zlogin, .zprofile, .zlogout?](https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout)
 
