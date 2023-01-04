@@ -1,5 +1,6 @@
 ---
 title: "Terms and Privacy Policy"
+layout: single
 permalink: /terms/
 last_modified_at: 2022-10-29T10:23:16-04:00
 author_profile: true

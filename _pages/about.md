@@ -27,14 +27,14 @@ As a software engineer, I enjoy using my obsessive attention to detail, my unequ
 **Talking about Personal Stuffs:**
 
 - 👨🏻‍💻 I’m currently working on something cool;
-- 🚀 I'm currently learning Swift programming language and IOS/MACOS app development with this course [iOS & Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/);
+- 🚀 I'm currently learning Swift programming language and IOS/MACOS app development with this course [iOS & Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/){:target="_blank"};
 - 💬 Ask me about anything, I am happy to help;
 - 📝 I regulary write articles on [my blog](https://mbagrat.com);
-- 📫 How to reach me: bagrat.mukaelyan@gmail.com;
-  <!-- - 📝 [Resume](https://gkassym.netlify.app/Resume.pdf). -->
+- 📫 How to reach me: [Feedback](mailto:bagrat.mukaelyan@gmail.com?subject=Feedback)
+- 📝 [Resume](/assets/doc/cv/bagrat-mukaelyan.pdf){:target="_blank"}.
 
 <br>
-<h2>===> Wakatime statistics for the last 7 days <===</h2>
+<h2>Wakatime statistics for the last 7 days</h2>
 
 <div class="container">
   <h4>Coding</h4>
