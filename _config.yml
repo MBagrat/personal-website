@@ -15,7 +15,7 @@ repository               : "mbagrat/personal-website"
 teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/120x88.png"
 masthead_title           : "MBagrat"
-breadcrumbs              : true
+breadcrumbs              : false
 
 
 comments:
@@ -81,6 +81,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:bagrat.mukaelyan@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/doc/cv/bagrat-mukaelyan.pdf"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.mbagrat.com"

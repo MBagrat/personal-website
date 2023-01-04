@@ -2,15 +2,14 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Resume"
+    url: /assets/doc/cv/bagrat-mukaelyan.pdf
+    target: "_blank"
   - title: "Blog"
-    url: /posts-grid/
+    url: /blog
   - title: "Categories"
     url: /categories/
-#  - title: "Links"
-#    url: /links/
-#  - title: "Reading list"
-#    url: /reading-list/
-  - title: "Archive"
-    url: /posts/
+  - title: "Reading"
+    url: /reading-list/
   - title: "Terms"
     url: /terms/
