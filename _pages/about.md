@@ -31,7 +31,7 @@ As a software engineer, I enjoy using my obsessive attention to detail, my unequ
 - 💬 Ask me about anything, I am happy to help;
 - 📝 I regulary write articles on [my blog](https://mbagrat.com);
 - 📫 How to reach me: [Feedback](mailto:bagrat.mukaelyan@gmail.com?subject=Feedback)
-- 📝 [Resume](/assets/doc/cv/bagrat-mukaelyan.pdf){:target="_blank"}.
+- 📝 [Resume](https://mbagrat.com/resume).
 
 <br>
 <h2>Wakatime statistics for the last 7 days</h2>

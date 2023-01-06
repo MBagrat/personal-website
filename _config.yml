@@ -83,7 +83,7 @@ author:
       url: "mailto:bagrat.mukaelyan@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/doc/cv/bagrat-mukaelyan.pdf"
+      url: "https://mbagrat.com/resume"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.mbagrat.com"
