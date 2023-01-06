@@ -1,7 +1,7 @@
 ---
 title: "Reading List"
 layout: single
-permalink: /reading-list/
+permalink: /reading-list
 author_profile: true
 classes: wide
 ---

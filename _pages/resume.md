@@ -67,7 +67,7 @@ Senior Java Software Engineer with more than several years of professional exper
 2. **Company name**: Energize Global Services CJSC  
     **Position**: Lead Java Software Engineer  
     **Period**: 02/2020 – 08/2021  
-    **Project**: Backend application for e-commerce platform   
+    **Project**: Backend application for e-commerce platform  
     **Responsibilities**:
       - Work on the team of 5 developers to design and develop backend application for online payment system
       - Be responsible for quality of applications delivered for customer orders
@@ -100,10 +100,10 @@ Senior Java Software Engineer with more than several years of professional exper
 
     **Technologies Used**: EJB, Spring, Hibernate, Apache Camel, ActiveMQ, MySQL, JBOSS, Maven, Subversion, Jenkins, SonarQube
 
-4. **Company name**: Energize Global Services CJSC
-    **Position**: Java Software Engineer
-    **Period**: 10/2016 – 08/2018
-    **Project**: VQuick Social Media Platform (Photo and Video collaboration platform)
+4. **Company name**: Energize Global Services CJSC  
+    **Position**: Java Software Engineer  
+    **Period**: 10/2016 – 08/2018  
+    **Project**: VQuick Social Media Platform (Photo and Video collaboration platform)  
     **Responsibilities**:
       - Develop social media platform
       - Develop REST services

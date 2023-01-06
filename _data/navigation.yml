@@ -1,16 +1,16 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /about
   - title: "Resume"
 #    url: /assets/doc/cv/bagrat-mukaelyan.pdf
-    url: /resume/
+    url: /resume
 #    target: "_blank"
   - title: "Blog"
-    url: /blog/
+    url: /blog
   - title: "Categories"
-    url: /categories/
+    url: /categories
   - title: "Reading"
-    url: /reading-list/
+    url: /reading-list
   - title: "Terms"
-    url: /terms/
+    url: /terms

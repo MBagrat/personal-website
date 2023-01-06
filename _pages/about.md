@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /about/ 
+permalink: /about
 author_profile: true 
 classes: wide 
 page_js:
