@@ -1,0 +1,18 @@
+<script>
+  function loadGAonConsent() {
+    window.ga=function(){
+      ga.q.push(arguments)
+    };
+    ga.q=[];
+    ga.l =+ new Date;
+    ga('create','{{ site.analytics.google.tracking_id }}','auto');
+    ga('set', 'anonymizeIp', {{ site.analytics.google.anonymize_ip | default: false }});
+    ga('send','pageview')
+
+    var script = document.createElement("script")
+    script.type = "text/javascript";
+    script.src = "https://www.google-analytics.com/analytics.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+</script>

@@ -1,0 +1,15 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  function loadGAonConsent() {
+    var script = document.createElement("script")
+    script.type = "text/javascript";
+    script.src = "https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}";
+    document.body.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+  }
+</script>

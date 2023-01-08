@@ -99,22 +99,10 @@ author:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://www.t.me/mbagrat"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbagrat"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/mbagrat"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/MBagrat/"
 
 # Site Footer
 footer:
   links:
-    - label: "Telegram"
-      icon: "fab fa-fw fa-telegram"
-      url: "https://www.t.me/mbagrat"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MBagrat"
@@ -124,7 +112,9 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/MBagrat/"
-
+    - label: "Terms"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/terms"
 
 # Reading Files
 include:
@@ -254,3 +244,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+after_footer_analytics_scripts:
+  - /assets/js/cookie-consent.js
