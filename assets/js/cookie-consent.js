@@ -10,7 +10,7 @@
       }
     },
     "theme": "edgeless",
-    "position": "bottom-left",
+    "position": "bottom-right",
     "type": "opt-in",
     "content": {
       "message": "Our website uses cookies to improve your browsing experience. By using our site, you agree to our use of cookies.",
