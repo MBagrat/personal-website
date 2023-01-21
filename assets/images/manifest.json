@@ -1,5 +1,6 @@
 {
-	"name": "Minimal Mistakes",
+  "name": "MBagrat's Blog",
+  "short_name": "MBagrat's Blog",
 	"icons": [
 		{
 			"src": "\/assets\/images\/android-chrome-36x36.png?v=M44lzPylqQ",
@@ -37,5 +38,9 @@
 			"type": "image\/png",
 			"density": 4
 		}
-	]
+	],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "start_url": "https://mbagrat.com",
+  "display": "standalone"
 }
