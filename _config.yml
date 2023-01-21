@@ -13,7 +13,7 @@ url                      : https://mbagrat.com
 baseurl                  : ""
 repository               : "mbagrat/personal-website"
 teaser                   : "/assets/images/500x300.png"
-logo                     : "/assets/images/120x88.png"
+logo                     : "/assets/images/site-logo.png"
 masthead_title           : "MBagrat"
 breadcrumbs              : false
 
