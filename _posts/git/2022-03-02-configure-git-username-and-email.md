@@ -5,7 +5,7 @@ header:
   og_imsge: /assets/images/configure-git-username-and-email/configure-git-username-and-email.jpg
 categories:
   - Git
-tags: 
+tags:
   - git
   - vcs
   - version-control-system
