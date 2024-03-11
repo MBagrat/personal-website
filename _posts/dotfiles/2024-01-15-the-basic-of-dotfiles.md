@@ -1,21 +1,25 @@
 ---
 title:  "The basic of dotfiles"
 header:
-  teaser: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.jpg
-  header: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.jpg
-  og_image: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.jpg
+  teaser: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.png
+  header: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.png
+  og_image: /assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.png
 categories:
-  - Linux
+  - MacOS
 tags:
   - dotfiles
+  - environment
 classes: wide
 last_modified_at: 2024-01-15T11:08:45+04:00
 ---
-## What are dotfiles
+
+## What are dotfiles.
 Your personal, crafted configuration!
 - Text-based configuration files for the programs you use
 - Personal scripts
 - Called "dotfiles" because the file or directory starts with a "."
+
+{% include figure image_path="/assets/images/the-basic-of-dotfiles/the-basic-of-dotfiles.png" alt="The basic of dotfiles" %}
 
 ## Common dotfiles
 On Linux and macOS there are certain dotfiles you will commonly see:
@@ -60,6 +64,4 @@ Here's my dotfiles repo: [https://github.com/mbagrat/dotfiles](https://github.co
 - Tools to make dotfiles management easier like GNU Stow
 - Complete dotfiles management with Emacs (even on Windows!)
 
-
-## Resources
 {% include video id="BE87kUCTBVU" provider="youtube" %}
