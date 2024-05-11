@@ -4,7 +4,7 @@ layout: single
 permalink: /resume
 author_profile: true
 classes: wide
-last_modified_at: 2022-12-15
+last_modified_at: 2023-05-09
 ---
 [![Website Badge](https://img.shields.io/badge/Download_pdf_resume-388086?style=for-the-badge)](https://bit.ly/mbagrat-pdf-resume){:target="_blank"}
 
@@ -43,28 +43,44 @@ Senior Java Software Engineer with more than several years of professional exper
    - _SQL_: MySQL, MariaDB, PostgreSQL, 
    - _NoSQL_: MongoDB
    - _InMemory_: Redis, H2, HSQL, Apache Derby
+   - _Message brokers_ : ActiveMQ, RabbitMQ
 4. CI/CD
    - _Version Controls_: Git, SVN
-   - _Deployment tools_: Docker, Vagrant, VirtualBox, WSL2 
-   - _Operation system_: Linux, Windows, Macos
+   - _Deployment tools_: Kubernetes, Docker, Vagrant, VirtualBox, WSL2 
+   - _Operation systems_: Linux, Windows, Macos
 5. Other
-   - _IDE_: IntelliJ IDEA, Eclipse, Netbeans, WebStorm, DataGrip, VS Code
+   - _IDE_: IntelliJ IDEA, Eclipse, Netbeans, WebStorm, DataGrip, VS Code, Sublime Text, Zed, NeoVim
    - _Task management systems_: Jira, YouTrack, Trello, Asana
 
 #### Professional History:
-1. **Company name**: Material Exchange CJSC  
+1. **Company name**: AmeriaBank CJSC  
+    **Position**: Senior Java Software Engineer  
+    **Period**: 04/2023 – current  
+    **Project**: MyAmeria Backend  
+    **Responsibilities**:  
+      - Design, develop, and maintain backend services for mobile banking applications.
+      - Implement APIs for mobile applications to access core banking functionalities.
+      - Develop microservices using Spring Boot and other relevant frameworks.
+      - Write clean, maintainable, and efficient code using Java.
+      - Perform unit testing and integration testing.
+      - Participate in code reviews and knowledge sharing sessions.
+      - Stay up-to-date with the latest Java technologies and trends.
+
+    **Technologies Used**: Spring (Boot/Web/Data/Security/etc.), keycloak, postgresql, mongodb, RabbitMQ, Redis, Jersey/RestEasy, Docker, Kubernetes, Azure Devops(CI/CD), etc…
+
+2. **Company name**: Material Exchange CJSC  
     **Position**: Lead Java Software Engineer  
-    **Period**: 08/2021 – current  
+    **Period**: 08/2021 – 12/2022  
     **Project**: Material Exchange: A Digital Sourcing Platform for sustainable sourcing  
     **Responsibilities**:
-     - Work closely with product owners and principal engineers to implement, test and continually improve scalable Java applications
-     - Take accountability for implementation and quality of software products as well as time and complexity estimation of own technical tasks
-     - Develop software products using Agile methods, tools, and continuous delivery process; Participate in design reviews, code reviews, and product demos;
-     - Collaborate with other engineering teams to resolve dependencies and deliver high-quality software on time.
+      - Work closely with product owners and principal engineers to implement, test and continually improve scalable Java applications
+      - Take accountability for implementation and quality of software products as well as time and complexity estimation of own technical tasks
+      - Develop software products using Agile methods, tools, and continuous delivery process; Participate in design reviews, code reviews, and product demos;
+      - Collaborate with other engineering teams to resolve dependencies and deliver high-quality software on time.
 
     **Technologies Used**: PostgreSQL, JDBC, HTML, CSS, Angular JS, Docker, Docker Compose, RestEasy, Tomcat, Jenkins Maven, Twilio, and some private frameworks developed by our company(for example. DB Migration Framework).
 
-2. **Company name**: Energize Global Services CJSC  
+3. **Company name**: Energize Global Services CJSC  
     **Position**: Lead Java Software Engineer  
     **Period**: 02/2020 – 08/2021  
     **Project**: Backend application for e-commerce platform  
@@ -84,7 +100,7 @@ Senior Java Software Engineer with more than several years of professional exper
 
     **Technologies Used**: SQL, MySQL, HTML, CSS, Angular JS, Docker, Docker Compose, JBoss EAP 7.1, Maven, CI/CD(Gitlab)
 
-3. **Company name**: Energize Global Services CJSC  
+4. **Company name**: Energize Global Services CJSC  
     **Position**: Senior Java Software Engineer  
     **Period**: 09/2018 – 01/2020  
     **Project**: Central Acceptance platform (Backend application for POS terminals)  
@@ -100,7 +116,7 @@ Senior Java Software Engineer with more than several years of professional exper
 
     **Technologies Used**: EJB, Spring, Hibernate, Apache Camel, ActiveMQ, MySQL, JBOSS, Maven, Subversion, Jenkins, SonarQube
 
-4. **Company name**: Energize Global Services CJSC  
+5. **Company name**: Energize Global Services CJSC  
     **Position**: Java Software Engineer  
     **Period**: 10/2016 – 08/2018  
     **Project**: VQuick Social Media Platform (Photo and Video collaboration platform)  
@@ -115,7 +131,7 @@ Senior Java Software Engineer with more than several years of professional exper
 
     **Technologies Used**: Java 8, Tomcat, MyBatis, MySQL, Spring MVC, Spring security, Maven, AngularJS, Bower, Gulp, Git.
 
-5. **Company name**: Energize Global Services CJSC  
+6. **Company name**: Energize Global Services CJSC  
     **Position**: Java Software Engineer  
     **Period**: 12/2015 – 10/2016  
     **Project**: File Storage as a part of local project  
