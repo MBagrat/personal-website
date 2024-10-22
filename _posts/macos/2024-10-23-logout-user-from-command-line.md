@@ -12,7 +12,7 @@ tags:
   - logout
 toc: true
 toc_sticky: true
-last_modified_at: 2022-03-02T15:26:16+04:00
+last_modified_at: 2024-10-23T11:06:16+04:00
 ---
 
 {% include figure image_path="/assets/images/logout-user-from-command-line/user-switching-menu.png" alt="This is top image" caption="Logout user from terminal." %}
