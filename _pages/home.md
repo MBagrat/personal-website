@@ -1,7 +1,31 @@
 ---
-title: "Home"
-layout: home
+title: 'Home'
+layout: default
 permalink: /
 author_profile: true
 classes: wide
+pagination:
+  enabled: true
 ---
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+    {% if paginator %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+
+    {% assign entries_layout = page.entries_layout | default: 'list' %}
+    <div class="entries-{{ entries_layout }}">
+      {% include documents-collection.html entries=posts type=entries_layout %}
+    </div>
+
+    {% include paginator.html %}
+
+  </div>
+</div>

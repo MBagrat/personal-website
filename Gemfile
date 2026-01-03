@@ -1,19 +1,27 @@
 source 'https://rubygems.org'
 
-gem 'faraday-retry', '~> 2.2'
-gem 'tzinfo-data'
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
-gem 'webrick', '~> 1.7'
+# Core Jekyll and Theme
+gem 'jekyll', '~> 4.4'
+gem 'minimal-mistakes-jekyll', '~> 4.27'
 
-# If you have any plugins, put them here!
+# Required for Jekyll 4+ and Ruby 3+
+gem 'webrick', '~> 1.9'
+
+# Network and API dependencies
+gem 'faraday-retry', '~> 2.4'
+gem 'tzinfo-data', platforms: [:windows, :jruby]
+
+# Deployment and Remote Functionality
+gem 'jekyll-remote-theme', '~> 0.4.3'
+
+# Plugins
 group :jekyll_plugins do
-  gem 'github-pages'
-  gem 'jekyll-algolia'
-  gem 'jekyll-feed'
-  gem 'jekyll-gist'
-  gem 'jekyll-include-cache'
-  gem 'jekyll-paginate-v2'
-  gem 'jekyll-sitemap'
-  gem 'jemoji'
-  gem 'ostruct'
+  gem 'jekyll-algolia', '~> 1.7'
+  gem 'jekyll-feed', '~> 0.17'
+  gem 'jekyll-gist', '~> 1.5'
+  gem 'jekyll-include-cache', '~> 0.2'
+  gem 'jekyll-paginate-v2', '~> 3.0'
+  gem 'jekyll-sitemap', '~> 1.4'
+  gem 'jemoji', '~> 0.13'
+  gem 'ostruct', '~> 0.6'
 end

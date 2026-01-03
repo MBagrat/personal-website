@@ -1,20 +1,20 @@
-;(function() {
+(function () {
   const codingActivitiesWebServiceUrl =
-    "https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/2746108e-8778-4734-ae6c-b1cf104be4fd.json";
+    'https://wakatime.com/share/@MBagrat/19a2f6d4-0350-4329-8c80-8417097cd249.json';
   const languageActivitiesWebServiceUrl =
-    "https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/3874410e-cd32-4a90-a573-10a6ca9ba517.json";
+    'https://wakatime.com/share/@MBagrat/235ce0e5-e1d0-494f-b59f-52fd129418b7.json';
   const editorActivitiesWebServiceUrl =
-    "https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/a855fc73-361e-4af6-90c4-17207fd0e510.json";
+    'https://wakatime.com/share/@MBagrat/d34e84f0-6496-4e29-a36b-0331f3e420d9.json';
   const operationSystemsWebServiceUrl =
-    "https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/a0879f8d-6364-4b52-89a7-46d1cfe75661.json";
+    'https://wakatime.com/share/@MBagrat/edab0ab6-2409-4e04-abc1-9514252cf98b.json';
   const categoriesWebServiceUrl =
-    "https://wakatime.com/share/@be3a3e41-13fd-45af-9359-ab80bf63e454/90df41c7-076a-45bb-9620-ed2e36fd32be.json";
+    'https://wakatime.com/share/@MBagrat/0ba05cb6-dd8d-4c2c-b761-653412a2d04a.json';
 
   const ajaxService = (webServiceUrl, callback) => {
     var ajaxOptions = {
       url: webServiceUrl,
-      type: "GET",
-      dataType: "jsonp",
+      type: 'GET',
+      dataType: 'jsonp',
       success: function (response) {
         callback(response.data);
       },
@@ -29,19 +29,22 @@
     }
     const aRgbHex = colour.match(/.{1,2}/g);
     return (
-      "rgb("
-      + parseInt(aRgbHex[0], 16) + ","
-      + parseInt(aRgbHex[1], 16) + ","
-      + parseInt(aRgbHex[2], 16) + ","
-      + 0.2 +
-      ")"
+      'rgb(' +
+      parseInt(aRgbHex[0], 16) +
+      ',' +
+      parseInt(aRgbHex[1], 16) +
+      ',' +
+      parseInt(aRgbHex[2], 16) +
+      ',' +
+      0.2 +
+      ')'
     );
   }
 
   function chartServiceDrawBar(responseData, elementId) {
     let rowData = [];
 
-    responseData.forEach(responseData => {
+    responseData.forEach((responseData) => {
       rowData.push({
         x: responseData.range.date,
         y: responseData.grand_total.digital,
@@ -49,33 +52,34 @@
     });
 
     const data = {
-      datasets: [{
-        label: 'Coding Activity',
-        data: rowData,
-        backgroundColor: [
-          'rgba(255, 26, 104, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)',
-          'rgba(0, 0, 0, 0.2)'
-        ],
-        borderColor: [
-          'rgba(255, 26, 104, 1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)',
-          'rgba(0, 0, 0, 1)'
-        ],
-        borderWidth: 2
-      },
+      datasets: [
+        {
+          label: 'Coding Activity',
+          data: rowData,
+          backgroundColor: [
+            'rgba(255, 26, 104, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)',
+            'rgba(255, 159, 64, 0.2)',
+            'rgba(0, 0, 0, 0.2)',
+          ],
+          borderColor: [
+            'rgba(255, 26, 104, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)',
+            'rgba(255, 159, 64, 1)',
+            'rgba(0, 0, 0, 1)',
+          ],
+          borderWidth: 2,
+        },
       ],
     };
     const config = {
-      type: "bar",
+      type: 'bar',
       data,
       options: {
         scales: {
@@ -83,7 +87,7 @@
             type: 'time',
             time: {
               unit: 'day',
-              tooltipFormat: 'MM/dd/yyyy'
+              tooltipFormat: 'MM/dd/yyyy',
             },
           },
           y: {
@@ -94,20 +98,20 @@
               parser: 'HH:mm',
               unit: 'hour',
               displayFormats: {
-                hour: 'HH:mm'
+                hour: 'HH:mm',
               },
-              tooltipFormat: 'HH:mm'
+              tooltipFormat: 'HH:mm',
             },
-          }
+          },
         },
         plugins: {
           legend: {
-            display: false
-          }
+            display: false,
+          },
         },
-      }
+      },
     };
-    const barChart = new Chart(document.getElementById(elementId), config)
+    const barChart = new Chart(document.getElementById(elementId), config);
   }
 
   function chartServiceDrawDonate(responseData, elementId) {
@@ -116,7 +120,19 @@
     let labels = [];
     let rgbColors = [];
 
-    responseData.forEach(data => {
+    responseData.forEach((data) => {
+      if (
+        !data.color ||
+        typeof data.color !== 'string' ||
+        !data.color.startsWith('#') ||
+        data.color.length < 7
+      ) {
+        data.color =
+          '#' +
+          Math.floor(Math.random() * 16777215)
+            .toString(16)
+            .padStart(6, '0');
+      }
       colors.push(data.color);
       presents.push(data.percent);
       labels.push(data.name);
@@ -125,34 +141,36 @@
 
     const data = {
       labels: labels,
-      datasets: [{
-        data: presents,
-        borderColor: colors,
-        backgroundColor: rgbColors,
-        borderWidth: 2,
-      },
+      datasets: [
+        {
+          data: presents,
+          borderColor: colors,
+          backgroundColor: rgbColors,
+          borderWidth: 2,
+        },
       ],
     };
     const config = {
-      type: "doughnut",
+      type: 'doughnut',
       data,
       options: {
         // maintainAspectRatio: false,
         plugins: {
           legend: {
-            position: 'right'
-          }
+            position: 'right',
+          },
         },
-      }
+      },
     };
-    const donateChart = new Chart(document.getElementById(elementId), config)
+    const donateChart = new Chart(document.getElementById(elementId), config);
   }
 
-  let codingActivitiesCallback = (data) => chartServiceDrawBar(data, "codingActivitiesBar");
-  let languageActivitiesCallback = (data) => chartServiceDrawDonate(data, "languageActivitiesChart");
-  let editorActivitiesCallback = (data) => chartServiceDrawDonate(data, "editorActivitiesChart");
-  let operationSystemsCallback = (data) => chartServiceDrawDonate(data, "operationSystemsChart");
-  let categoriesCallback = (data) => chartServiceDrawDonate(data, "categoriesChart");
+  let codingActivitiesCallback = (data) => chartServiceDrawBar(data, 'codingActivitiesBar');
+  let languageActivitiesCallback = (data) =>
+    chartServiceDrawDonate(data, 'languageActivitiesChart');
+  let editorActivitiesCallback = (data) => chartServiceDrawDonate(data, 'editorActivitiesChart');
+  let operationSystemsCallback = (data) => chartServiceDrawDonate(data, 'operationSystemsChart');
+  let categoriesCallback = (data) => chartServiceDrawDonate(data, 'categoriesChart');
 
   ajaxService(codingActivitiesWebServiceUrl, codingActivitiesCallback);
   ajaxService(languageActivitiesWebServiceUrl, languageActivitiesCallback);

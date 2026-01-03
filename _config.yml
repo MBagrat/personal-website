@@ -1,4 +1,5 @@
-remote_theme             : "mmistakes/minimal-mistakes@4.27.3"
+# remote_theme             : "mmistakes/minimal-mistakes@4.27.3"
+theme                    : "minimal-mistakes-jekyll"
 
 minimal_mistakes_skin    : "dark"
 
@@ -12,6 +13,7 @@ description              : &description "“Adapt what is useful, reject what is
 url                      : https://mbagrat.com
 baseurl                  : ""
 repository               : "mbagrat/personal-website"
+words_per_minute         : 200
 teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/site-logo.png"
 masthead_title           : "MBagrat"
@@ -47,9 +49,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "bagratmukaelyan"
+  username               : "bagratmukaelyan"
 facebook:
-  username               : &facebook "mbagrat"
+  username               : "mbagrat"
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/site-logo.png"
@@ -120,6 +122,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - .well-known
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -206,13 +209,24 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
+pagination:
+  enabled: true
+  debug: false
+  per_page: 14
+  permalink: '/page:num/'
+  sort_field: 'date'
+  sort_reverse: true
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
 timezone: Asia/Yerevan
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -221,7 +235,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
